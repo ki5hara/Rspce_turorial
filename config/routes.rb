@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :todos
+  resources :goals
+  resources :tweetts
   resources :tweets
   root to: "pages#home"
 
